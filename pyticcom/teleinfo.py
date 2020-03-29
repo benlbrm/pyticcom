@@ -4,7 +4,6 @@ import sys
 
 import serial
 from serial import PARITY_EVEN, STOPBITS_ONE
-from serial.tools import list_ports
 
 from pyticcom.const import ADCO_DESCRIPTION, OPTARIF_DESCRIPTION, ISOUSC_DESCRIPTION, UNIT_A, UNIT_WH, UNIT_VA, UNIT_NONE, \
     BASE_DESCRIPTION, HCHC_DESCRIPTION, HCHP_DESCRIPTION, PTEC_DESCRIPTION, IINST_DESCRIPTION, IMAX_DESCRIPTION, \
@@ -184,18 +183,3 @@ class Teleinfo:
     def __exit__(self, type, value, traceback):
         """Make sure reader is closed."""
         self.close()
-
-
-def serial_is_available(name):
-    """Check if a serial port is available."""
-    ports = list_available_serials()
-    for port in ports:
-        if port.device == name:
-            return True
-    return False
-
-
-def list_available_serials():
-    """Check if a serial port is available."""
-    ports = list_ports.comports()
-    return [port.device for port in ports]
