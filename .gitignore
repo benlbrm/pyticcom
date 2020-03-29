@@ -1,0 +1,10 @@
+# PyCharm
+.idea
+
+# Virtualenv
+venv
+
+# build
+dist
+build
+*egg*
