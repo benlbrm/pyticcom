@@ -1,6 +1,6 @@
 from time import sleep
 
-from pyticcom import Teleinfo, Mode, list_available_serials
+from pytictri import Teleinfo, Mode, list_available_serials
 
 with Teleinfo('/dev/ttyUSB', mode=Mode.HISTORY) as tr:
     devices = list_available_serials()

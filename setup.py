@@ -30,17 +30,17 @@ with open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='pyticcom',
-    version=find_version("pyticcom", "__init__.py"),
+    name='pytictri',
+    version=find_version("pytictri", "__init__.py"),
     packages=find_packages(),
-    description='Teleinfo python library',
+    description='Teleinfo tri python library',
     long_description=long_description,
     long_description_content_type='text/markdown',
     install_requires=['requests>=2'],
     license='GPL-3',
     include_package_data=True,
-    url='https://github.com/biker91620/pyticcom/tree/master',
-    author='biker91620',
+    url='https://github.com/biker91620/pytictri/tree/master',
+    author='benblrm',
     classifiers=[
         'Programming Language :: Python',
         'Development Status :: 5 - Production/Stable',
@@ -55,6 +55,7 @@ setup(
     ],
     keywords=[
         'rest',
+        'pytictri',
         'pyticcom',
         'linky',
         'tic',

@@ -1,6 +1,6 @@
 # PyCharm
 .idea
-
+.vscode
 # Virtualenv
 venv
 
