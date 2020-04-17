@@ -17,7 +17,7 @@ PMAX_DESCRIPTION = "Puissance maximale triphasée atteinte, valeur du jour n-1"
 PAPP_DESCRIPTION = "Puissance apparente"
 HHPHC_DESCRIPTION = "Horaire Heures Pleines Heures Creuses"
 MOTDETAT_DESCRIPTION = "Mot d'état du compteur MOTDETAT"
-PPOT_DESCRIPTION = "Présence des potentiels, 0X, le X reflétant les coupures de phase selon la règle suivante :absence de la phase n -> bit n = 1"
+PPOT_DESCRIPTION = "Présence des potentiels, 0X le X reflétant les coupures de phase selon la règle suivante: absence de la phase n -> bit n = 1"
 
 UNIT_NONE = ""
 UNIT_VA = "VA"

@@ -81,7 +81,7 @@ class Frame:
     def get(self, group_info:GroupInfo):
         """Get group by label."""
         for group in self.groups:
-            if group.info == group_info:
+            if group.info.name == group_info:
                 return group
         return None
 
