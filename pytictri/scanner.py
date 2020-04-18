@@ -21,4 +21,4 @@ class ComScanner:
 
     def scan(self):
         """Check if a serial port is available."""
-        return list_ports.comports(True)
+        return list_ports.comports(include_links = True)
