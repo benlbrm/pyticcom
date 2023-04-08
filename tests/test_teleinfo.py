@@ -1,7 +1,7 @@
 import unittest
 from unittest import mock
 
-from pyticcom import Teleinfo, GroupInfo
+from pytictri import Teleinfo, GroupInfo
 
 
 class TestTeleinfo(unittest.TestCase):
